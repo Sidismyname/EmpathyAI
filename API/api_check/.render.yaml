@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: empathyai-backend
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    env: python
+    plan: free
+    autoDeploy: true
