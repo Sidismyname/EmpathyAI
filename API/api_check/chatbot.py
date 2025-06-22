@@ -7,7 +7,7 @@ from langchain.prompts import (
     MessagesPlaceholder
 )
 from langchain_groq import ChatGroq
-api_key1="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"
+api_key1="api_key"
 llm = ChatGroq(groq_api_key=api_key1, model_name="llama-3.3-70b-versatile", temperature=0.6)
 
 system_msg_template = SystemMessagePromptTemplate.from_template(template="""
